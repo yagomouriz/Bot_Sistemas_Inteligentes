@@ -16,14 +16,99 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
     <!--primera regla 3-->
     <category>
-        <pattern>Qué puedo estudiar en la ESEI?</pattern>
+        <pattern>^ que ^ estudiar en la ESEI</pattern>
         <template>En la ESEI se ofrece la posibilidad de estudiar el Grado en Ingeniería Informática, el (en vía de extinción) programa conjunto de ADE + Ingeniería Informática, el Máster Universitario en Ingeniería Informática, el Suplemento Europeo al Título (SET) y, finalmente, Doctorados en Sistemas de Software Inteligentes y Adaptables y en agua, sostenibilidad y desarrollo.</template>
     </category>
 
+    <!--regla 4-->
+    <category>
+        <pattern>Por que ^ estudiar en la ESEI</pattern>
+        <template>Existen muchas y buenas razones por las que estudiar en la ESEI, pero se pueden resumir en las 10 razones de la ACM (Association for Computer Machinery), una de las principales asociaciones mundiales de referencia en nuestro ámbito, listadas en "https://esei.uvigo.es/razons-polas-que-estudar-na-esei/".</template>
+    </category>
 
+    <!--regla 5-->
+    <category>
+        <pattern>Hay ^ cafeteria en la ESEI</pattern>
+        <template>Si, se encuentra en la planta baja, directamente accesible desde la terraza.</template>
+    </category>
 
+    <!--regla 6-->
+    <category>
+        <pattern>Donde ^ Secretaria de la ESEI</pattern>
+        <template>La Secretaría de la ESEI se encuentra en la planta baja, accesible desde el Hall, localizada a mano derecha de Conserjería.</template>
+    </category>
 
+    <!--regla 7-->
+    <category>
+        <pattern>Que horario ^ tiene la secretaria del centro</pattern>
+        <template>La Secretaría de la ESEI ofrece Atención al Público de Lunes a Viernes, de 9:00 a 14:00h.</template>
+    </category>
+
+    <!--regla 8-->
+    <category>
+        <pattern> ^ que ^ el PAT</pattern>
+        <template>El PAT (Plan de Acción Tutorial) de la ESEI es un programa de atención personalizada dirigido al alumnado de nuevo ingreso. Más info en "https://esei.uvigo.es/docencia/pat-plan-de-accion-titorial/".</template>
+    </category>
+
+    <!--regla 9-->
+    <category>
+        <pattern>^ protocolo de acogida ^ alumnos ^ necesidades ^ especiales</pattern>
+        <template>En la búsqueda de la integración total de las personas con discapacidad, tanto en el ámbito académico como en el laboral, la Universidad de Vigo dispone de varios programas. El Programa de inserción de discapacitados, promovido por la Vicerrectoría de Extensión Universitaria y Relaciones Internacionales, favorece la integración plena del estudiantado en la vida universitaria. Más info en "https://www.uvigo.gal/es/campus/salud-bienestar/unidad-atencion-estudiantado-necesidades-especificas-apoyo-educativo-unaten".</template>
+    </category>
+
+    <!--regla 10-->
+    <category>
+        <pattern>Existe ^ delegacion ^ alumnos ^</pattern>
+        <template>Si, cada dos años los estudiantes eligen a sus representantes en los órganos de gobierno de la ESEI (Xunta de Centro y diferentes comisiones), así como en órganos de gobierno de la Universidad (Claustro e Consello de Gobierno). La Delegación, conocida como ESEIDA, está a vuestra disposición en su local de la primera planta, así como en el teléfono 988 387 000 o en eseida@esei.uvigo.es. Más info en "https://esei.uvigo.es/a-esei/delegacion-de-alumnos/".</template>
+    </category>
+
+    <!--regla 11-->
+    <category>
+        <pattern>Que es el suplemento europeo al titulo</pattern>
+        <template>El Suplemento Europeo al Título (SET) es el documento que otorga validez comunitaria al currículum académico. Consiste en un anexo a la titulación universitaria en el que se pormenorizan las materias cursadas, idiomas impartidos, créditos realizados, competencias adquiridas, resultados académicos y cualificación profesional del graduado, máster ou doctorado, con sus nombres y apellidos, entre otras acreditaciones fidedignas en toda Europa. Más info en "https://esei.uvigo.es/estudos/suplemento-europeo-ao-titulo/".</template>
+    </category>
 
     
+    <category>
+        <pattern>Que tipo de practicas puedo realizar como alumno de la ESEI</pattern>
+        <template>Como estudiante de las titulaciones de la ESEI puedes realizar prácticas en empresas como complemento de tus estudios. Según la titulación que estés cursando,
+	la realización de prácticas tendrá características y consecuencias diferentes:
+
+     - Grado en Ingeniería Informática: se pueden realizar prácticas de 6 ECTS (150 horas) ou 12 ECTS (300 horas), que se contabilizan como créditos optativos a 
+	   detraer de los créditos de optatividad que debes cursar. Son prácticas curriculares, aunque también se poden hacer extracurriculares y figurarán en el expediente académico del estudiante.
+	 - Máster en Ingeniería Informática: la realización de las prácticas será obrigatoria y se lleva a cabo en el tercer semestre del máster. Son prácticas curriculares, 
+	   aunque también se pueden hacer extracurriculares y figurarán en el expediente académico del estudiante.
+
+	Independientemente del tipo de prácticas que se oferten, es necesario disponer de un convenio de colaboración en vigor, de cuya tramitación se encarga la Fundación Universidad de Vigo (FUVI). Más info en "https://esei.uvigo.es/docencia/practicas-en-empresa/".</template>
+    </category>
+    <category>
+        <pattern>Donde puedo consultar la oferta de practicas en empresas</pattern>
+        <template>Puedes consultar la oferta de prácticas en empresas en "https://esei.uvigo.es/docencia/ofertas-de-practicas/".</template>
+    </category>
+    <category>
+        <pattern>Con que recursos materiales y servicios cuenta la ESEI</pattern>
+        <template>La ESEI cuenta con los recursos materiales y servicios listados y descritos en "https://esei.uvigo.es/a-esei/recursos-materiais-e-servizos/aulas-laboratorios-seminarios-e-despachos/".</template>
+    </category>
+    <category>
+        <pattern>Que son los Trabajos Fin de Grado o de Master </pattern>
+        <template>Todas las titulaciones de la ESEI tienen como requisito imprescindible la realización de un trabajo de fin de carrera, cuyas características variarán en función de la titulación de la que se trate.
+
+    Trabajo Fin de Grado: se llama así al trabajo que hacen los estudiantes del Grado en Ingeniería Informática.
+    Trabajo Fin de Máster: se llama así al trabajo que hacen los estudiantes del MEI.</template>
+    </category>
+    <category>
+        <pattern>Como hago para acceder a la Biblioteca</pattern>
+        <template>Para acceder a la página de la Biblioteca, simplemente pulsa el enlace en la parte superior de la página de "https://esei.uvigo.es", o usa directamente la dirección "http://www.perseo.biblioteca.uvigo.es/search*spi" en tu navegador.</template>
+    </category>
+    <category>
+        <pattern>Como puedo justificar mi asistencia a las actividades de evaluacion y a sus revisiones</pattern>
+        <template>Puedes justificar tu asistencia haciendo uso de formularios disponibles en "https://esei.uvigo.es/a-esei/formularios/formularios-xerais/".</template>
+    </category>
+    <category>
+        <pattern>Que actividades deportivas ofrece la ESEI</pattern>
+        <template>La ESEI en sí misma no ofrece actividades deportivas. No obstante, desde la página de la ESEI "https://esei.uvigo.es" puedes acceder a la página de Deportes de la Universidad de Vigo seleccionando la opción en la parte superior de la página o usando la dirección "https://www.uvigo.gal/campus/deporte" en tu navegador.</template>
+    </category>
+
+
 
 </aiml>
