@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>dime el color de pelo de <set>compi</set></pattern>
+        <template><star/> tiene el pelo <map name="pelo"><star/></map></template>
+    </category>
+    <category>
+        <pattern>de dime el color de los ojos de <set>compi</set></pattern>
+        <template><star/> tiene los ojos de color <map name="ojos"><star/></map></template>
+    </category>
+</aiml>

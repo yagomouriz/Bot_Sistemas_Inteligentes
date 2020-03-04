@@ -1,0 +1,5 @@
+manuel:verde
+brais:verde
+pedro:amarillo
+ana:verde
+maria:azul

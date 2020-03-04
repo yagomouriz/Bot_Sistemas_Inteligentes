@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <!--primera regla 1-->
+    <category>
+        <pattern>* sobre la Universidad de Vigo</pattern>
+        <template>La Universidad de Vigo es una institución nueva y dinámica que te ofrece una gran oferta formativa en los tres campus especializados e innovadores que la conforman.
+Más info en "https://www.uvigo.gal/universidade/conecenos".
+        </template>
+    </category>
+
+    <!--primera regla 2-->
+    <category>
+        <pattern>Hola</pattern>
+        <template>Hola, ¿Qué tal?</template>
+    </category>
+
+    <!--primera regla 3-->
+    <category>
+        <pattern>Donde se encuentra la ESEI? </pattern>
+        <template>La ESEI (Escola Superior de Enxeñaría Informática) se encuentra en el campus de Ourense de la Universidad de Vigo, concretamente en "Campus de Ourense – Edificio Politécnico 32004 – Ourense – España". Más info en "https://goo.gl/maps/jEZKkM3d9ceA1WV57".</template>
+    </category>
+
+    <!--primera regla 4-->
+    <category>
+        <pattern>Qué puedo estudiar en la ESEI?</pattern>
+        <template>En la ESEI se ofrece la posibilidad de estudiar el Grado en Ingeniería Informática, el (en vía de extinción) programa conjunto de ADE + Ingeniería Informática, el Máster Universitario en Ingeniería Informática, el Suplemento Europeo al Título (SET) y, finalmente, Doctorados en Sistemas de Software Inteligentes y Adaptables y en agua, sostenibilidad y desarrollo.</template>
+    </category>
+
+
+
+
+
+    
+
+</aiml>

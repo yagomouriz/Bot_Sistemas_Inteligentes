@@ -1,0 +1,5 @@
+manuel:marron
+brais:marron
+pedro:marron
+ana:negro
+maria:amarillo
