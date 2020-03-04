@@ -1,0 +1,7 @@
+delegacion
+embajada
+agencia
+gestion
+comite
+filial
+sucursal

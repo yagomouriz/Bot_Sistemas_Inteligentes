@@ -1,0 +1,12 @@
+alumno
+estudiante
+alumnos
+estudiantes
+colegiales
+colegial
+escolar
+escolares
+discipulos
+discipulo
+aprendiz
+aprendices
