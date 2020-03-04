@@ -2,7 +2,7 @@
 <aiml>
     <!--primera regla 1-->
     <category>
-        <pattern>* sobre la Universidad de Vigo</pattern>
+        <pattern>^ <set>contar</set> ^ <set>uvigo</set></pattern>
         <template>La Universidad de Vigo es una institución nueva y dinámica que te ofrece una gran oferta formativa en los tres campus especializados e innovadores que la conforman.
 Más info en "https://www.uvigo.gal/universidade/conecenos".
         </template>
@@ -10,31 +10,31 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
     <!--primera regla 2-->
     <category>
-        <pattern>^ Donde ^ encuentra ^ ESEI</pattern>
+        <pattern>^ Donde ^ <set>encuentra</set> ^ <set>ESEI</set></pattern>
         <template>La ESEI (Escola Superior de Enxeñaría Informática) se encuentra en el campus de Ourense de la Universidad de Vigo, concretamente en "Campus de Ourense – Edificio Politécnico 32004 – Ourense – España". Más info en "https://goo.gl/maps/jEZKkM3d9ceA1WV57".</template>
     </category>
 
     <!--primera regla 3-->
     <category>
-        <pattern>^ que ^ estudiar en la ESEI</pattern>
+        <pattern>^ que ^ estudiar * <set>ESEI</set></pattern>
         <template>En la ESEI se ofrece la posibilidad de estudiar el Grado en Ingeniería Informática, el (en vía de extinción) programa conjunto de ADE + Ingeniería Informática, el Máster Universitario en Ingeniería Informática, el Suplemento Europeo al Título (SET) y, finalmente, Doctorados en Sistemas de Software Inteligentes y Adaptables y en agua, sostenibilidad y desarrollo.</template>
     </category>
 
     <!--regla 4-->
     <category>
-        <pattern>Por que ^ estudiar en la ESEI</pattern>
+        <pattern>Por que ^ estudiar en la <set>ESEI</set></pattern>
         <template>Existen muchas y buenas razones por las que estudiar en la ESEI, pero se pueden resumir en las 10 razones de la ACM (Association for Computer Machinery), una de las principales asociaciones mundiales de referencia en nuestro ámbito, listadas en "https://esei.uvigo.es/razons-polas-que-estudar-na-esei/".</template>
     </category>
 
     <!--regla 5-->
     <category>
-        <pattern>Hay ^ cafeteria en la ESEI</pattern>
+        <pattern>Hay ^ cafeteria en la <set>ESEI</set></pattern>
         <template>Si, se encuentra en la planta baja, directamente accesible desde la terraza.</template>
     </category>
 
     <!--regla 6-->
     <category>
-        <pattern>Donde ^ Secretaria de la ESEI</pattern>
+        <pattern>Donde ^ Secretaria de la <set>ESEI</set></pattern>
         <template>La Secretaría de la ESEI se encuentra en la planta baja, accesible desde el Hall, localizada a mano derecha de Conserjería.</template>
     </category>
 
@@ -70,7 +70,7 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
       <!--regla 12-->
     <category>
-        <pattern>Que ^ practicas ^ alumno ^ ESEI</pattern>
+        <pattern>Que ^ practicas ^ <set>alumnos</set> ^ ESEI</pattern>
         <template>Como estudiante de las titulaciones de la ESEI puedes realizar prácticas en empresas como complemento de tus estudios. Según la titulación que estés cursando,
 	la realización de prácticas tendrá características y consecuencias diferentes:
 
@@ -90,7 +90,7 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
     <!--regla 14-->
     <category>
-        <pattern>Con que recursos materiales y servicios cuenta la ESEI</pattern>
+        <pattern>Con que recursos materiales y servicios cuenta la <set>ESEI</set></pattern>
         <template>La ESEI cuenta con los recursos materiales y servicios listados y descritos en "https://esei.uvigo.es/a-esei/recursos-materiais-e-servizos/aulas-laboratorios-seminarios-e-despachos/".</template>
     </category>
 
@@ -117,7 +117,7 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
     <!--regla 18-->
     <category>
-        <pattern>^ actividades deportivas ^ la ESEI</pattern>
+        <pattern>^ actividades deportivas ^ la <set>ESEI</set></pattern>
         <template>La ESEI en sí misma no ofrece actividades deportivas. No obstante, desde la página de la ESEI "https://esei.uvigo.es" puedes acceder a la página de Deportes de la Universidad de Vigo seleccionando la opción en la parte superior de la página o usando la dirección "https://www.uvigo.gal/campus/deporte" en tu navegador.</template>
     </category>
 
