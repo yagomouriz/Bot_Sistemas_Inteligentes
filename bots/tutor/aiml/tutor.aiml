@@ -64,13 +64,13 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
     <!--regla 11-->
     <category>
-        <pattern>Que es el suplemento europeo al titulo</pattern>
+        <pattern>^ suplemento europeo ^ titulo</pattern>
         <template>El Suplemento Europeo al Título (SET) es el documento que otorga validez comunitaria al currículum académico. Consiste en un anexo a la titulación universitaria en el que se pormenorizan las materias cursadas, idiomas impartidos, créditos realizados, competencias adquiridas, resultados académicos y cualificación profesional del graduado, máster ou doctorado, con sus nombres y apellidos, entre otras acreditaciones fidedignas en toda Europa. Más info en "https://esei.uvigo.es/estudos/suplemento-europeo-ao-titulo/".</template>
     </category>
 
-    
+      <!--regla 12-->
     <category>
-        <pattern>Que tipo de practicas puedo realizar como alumno de la ESEI</pattern>
+        <pattern>Que ^ practicas ^ alumno ^ ESEI</pattern>
         <template>Como estudiante de las titulaciones de la ESEI puedes realizar prácticas en empresas como complemento de tus estudios. Según la titulación que estés cursando,
 	la realización de prácticas tendrá características y consecuencias diferentes:
 
@@ -81,31 +81,43 @@ Más info en "https://www.uvigo.gal/universidade/conecenos".
 
 	Independientemente del tipo de prácticas que se oferten, es necesario disponer de un convenio de colaboración en vigor, de cuya tramitación se encarga la Fundación Universidad de Vigo (FUVI). Más info en "https://esei.uvigo.es/docencia/practicas-en-empresa/".</template>
     </category>
+
+    <!--regla 13-->
     <category>
-        <pattern>Donde puedo consultar la oferta de practicas en empresas</pattern>
+        <pattern>Donde ^ practicas * empresas</pattern>
         <template>Puedes consultar la oferta de prácticas en empresas en "https://esei.uvigo.es/docencia/ofertas-de-practicas/".</template>
     </category>
+
+    <!--regla 14-->
     <category>
         <pattern>Con que recursos materiales y servicios cuenta la ESEI</pattern>
         <template>La ESEI cuenta con los recursos materiales y servicios listados y descritos en "https://esei.uvigo.es/a-esei/recursos-materiais-e-servizos/aulas-laboratorios-seminarios-e-despachos/".</template>
     </category>
+
+    <!--regla 15-->
     <category>
-        <pattern>Que son los Trabajos Fin de Grado o de Master </pattern>
+        <pattern>Que ^ Trabajos Fin de Grado o de Master </pattern>
         <template>Todas las titulaciones de la ESEI tienen como requisito imprescindible la realización de un trabajo de fin de carrera, cuyas características variarán en función de la titulación de la que se trate.
 
     Trabajo Fin de Grado: se llama así al trabajo que hacen los estudiantes del Grado en Ingeniería Informática.
     Trabajo Fin de Máster: se llama así al trabajo que hacen los estudiantes del MEI.</template>
     </category>
+
+    <!--regla 16-->
     <category>
-        <pattern>Como hago para acceder a la Biblioteca</pattern>
+        <pattern>Como ^ la Biblioteca</pattern>
         <template>Para acceder a la página de la Biblioteca, simplemente pulsa el enlace en la parte superior de la página de "https://esei.uvigo.es", o usa directamente la dirección "http://www.perseo.biblioteca.uvigo.es/search*spi" en tu navegador.</template>
     </category>
+
+    <!--regla 17-->
     <category>
-        <pattern>Como puedo justificar mi asistencia a las actividades de evaluacion y a sus revisiones</pattern>
+        <pattern>Como ^ justificar ^ asistencia ^</pattern>
         <template>Puedes justificar tu asistencia haciendo uso de formularios disponibles en "https://esei.uvigo.es/a-esei/formularios/formularios-xerais/".</template>
     </category>
+
+    <!--regla 18-->
     <category>
-        <pattern>Que actividades deportivas ofrece la ESEI</pattern>
+        <pattern>^ actividades deportivas ^ la ESEI</pattern>
         <template>La ESEI en sí misma no ofrece actividades deportivas. No obstante, desde la página de la ESEI "https://esei.uvigo.es" puedes acceder a la página de Deportes de la Universidad de Vigo seleccionando la opción en la parte superior de la página o usando la dirección "https://www.uvigo.gal/campus/deporte" en tu navegador.</template>
     </category>
 
