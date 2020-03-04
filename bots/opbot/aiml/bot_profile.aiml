@@ -3,7 +3,7 @@
 
 <!--primera regla 34-->
 <category>
-<pattern>Hola *</pattern>
+<pattern>Hola</pattern>
 <template>Hola, ¿Qué tal?</template>
 </category>
 
@@ -17,6 +17,30 @@
 <category>
 <pattern> ^ me llamo *</pattern>
 <template>Que casualidad <star index="2"/>, yo me llamo: oscar</template>
+</category>
+
+<!--regla 4-->
+<category>
+<pattern>* que tal</pattern>
+<template>HOLA</template>
+</category>
+
+<!--regla 5-->
+<category>
+<pattern>Buenos días</pattern>
+<template>HOLA</template>
+</category>
+
+<!--regla 6-->
+<category>
+<pattern>Buenas tardes</pattern>
+<template>HOLA</template>
+</category>
+
+<!--regla 7-->
+<category>
+<pattern>Que tal</pattern>
+<template>HOLA</template>
 </category>
 
 </aiml>
